@@ -1,0 +1,15 @@
+.layout {
+    flex: 1 0 0;
+    align-self: stretch;
+    background: linear-gradient(180deg, #004E89 0%, #255c86 100%);
+}
+
+
+* {
+    color: #fff
+}
+a {
+    display: inline;
+    cursor: pointer;
+}
+

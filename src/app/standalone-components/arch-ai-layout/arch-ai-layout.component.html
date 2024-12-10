@@ -1,0 +1,46 @@
+<div class="container w-100  py-4 text-center" style="height: 500px;">
+    <form [formGroup]="archForm" (ngSubmit)="onSubmit()">
+        
+        <div class=" position-absolute translate-middle w-75 mt-4 start-50 our-bg p-4 z-4 h-100" style="height: 500px; top: 25%;">
+
+          <p class="text-center medium-title mt-4">
+            AI Consultation Now!
+          </p>
+        
+    <div class="row ">
+        <div class="col-9 mt-4 mx-auto">
+
+            <select id="city"  formControlName="city" class="mt-2 w-100">
+                <option value="" disabled selected>Select your city</option>
+                <option value="riyadh" selected>Riyadh</option>
+                <option value="jeddah">Jeddah</option>
+                <option value="dammam">Dammam</option>
+            </select>        
+        </div>
+        <div class="col-9 mt-4 mx-auto  position-relative">
+            <label class="regular-body" for="file" style="width: 100%;">
+                        <span style="width: 100%;">Upload Blueprint {{val.value ? '✅' : ''}}</span>
+            </label>
+            <br>
+            <input #val type="file" name="file" id="file" formControlName="file" placeholder="file:" class="d-none">
+        </div>
+        <div class="col-9 mt-4 mx-auto">
+          
+            <select id="level"  formControlName="level" class="mt-2 w-100">
+                <option value="" disabled selected>Select your expertise</option>
+                <option value="beginner" selected>Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+                <option value="expert">expert</option>
+            </select>
+        
+        </div>
+        <div class="col-9 mx-auto my-4">
+            <button type="submit" class="w-100 our-button" [ngClass]="!archForm.valid ? 'disabled' : ' '" [disabled]="!archForm.valid"><p class="regular-body w-100">Submit</p></button>
+        </div>
+    </div>
+
+    
+</div>
+    </form>
+</div>

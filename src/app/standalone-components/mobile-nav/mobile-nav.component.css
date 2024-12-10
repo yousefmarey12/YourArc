@@ -1,0 +1,10 @@
+
+
+.navigation-bar {
+    width: 40%;
+    background-color: var(--Background);
+}
+
+.z-5 {
+    z-index: 5;
+}

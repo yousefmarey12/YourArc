@@ -1,0 +1,19 @@
+.our-bg {
+    border-radius: 10px;
+    background: var(--Suprise, #FF6B35);
+    box-shadow: 0px 4px 4px 0px #004E89;
+}
+
+.the-bg {
+    display: inline-flex;
+    padding: 6px 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 7px;
+    border: 1px solid var(--Secondary-Background, #1A659E);
+    background: var(--Background, #004E89);
+    box-shadow: 0px 4px 4px 0px var(--Secondary-Text, #F7C59F);
+    color: #fff;
+  
+}

@@ -1,1 +1,118 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --Text: #EFEFD0;
+    --Secondary-Text: #F7C59F;
+    --Suprise: #FF6B35;
+    --Secondary-Background: #1A659E;
+    --Background: #004E89;
+}
+
+input, select, textarea{
+    color: #000;
+}
+
+textarea:focus, input:focus {
+    color: #000;
+}
+
+bottom-10 {
+    bottom: 10%;
+}
+
+bottom-20 {
+    bottom: 20%;
+}
+
+bottom-25 {
+    bottom: 25%;
+}
+
+bottom-30 {
+    bottom: 30%;
+}
+
+bottom-40 {
+    bottom: 40%;
+}
+
+bottom-50 {
+    bottom: 50%;
+}
+
+bottom-60 {
+    bottom: 60%;
+}
+
+bottom-70 {
+    bottom: 70%;
+}
+
+bottom-75 {
+    bottom: 75%;
+}
+
+
+bottom-80 {
+    bottom: 80%;
+}
+
+bottom-90 {
+    bottom: 90%;
+}
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    cursor: default;
+    text-decoration: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+.large-title {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Source Sans 3";
+}
+
+.medium-title {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Source Sans 3";
+}
+
+.small-title {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Source Sans 3";
+}
+
+.regular-body {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Source Sans 3";
+}
+
+.large-light-body {
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: "Source Sans 3";
+}
+
+.small-light-body {
+    font-size: 8px;
+    font-weight: lighter;
+    font-family: "Source Sans 3";
+}
+
+.faded-brightness {
+    filter: brightness(70%)
+}
